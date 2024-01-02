@@ -18,6 +18,9 @@
     font-size:small;
     text-transform: lowercase;
 }
+#date.first {
+    text-transform: uppercase;
+}
 body, html{
     height: 10px;
     width: 200px;
@@ -56,6 +59,6 @@ body, html{
         greet = 'God kveld  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+=`<div id="date"> I dag er det ${date}</div>`;
+        greet+=`<div id="date"> <span class="first">I</span> dag er det ${date}</div>`;
 </script> 
 </html>
