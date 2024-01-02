@@ -50,11 +50,11 @@ body, html{
     var greet;
 
     if (hrs < 12)
-        greet = 'God morgen  ';
+        greet = 'God morgen!  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'God ettermiddag ';
+        greet = 'God ettermiddag! ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'God kveld  ';
+        greet = 'God kveld!  ';
 
     document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> <span class="first">I</span> dag er det ${date}</div>`;
